@@ -12,7 +12,7 @@ const projects = [
   { id: 3, title: 'Pastry Gallery',     tags: ['React', 'Node.js', 'Airtable'],                 year: '2024', image: '/assets/3.png', links: [{ label: 'GitHub', url: 'https://github.com/asa7ur/Tartas_Karina' }] },
   { id: 4, title: 'Real Estate Agency', tags: ['Java', 'Spring Boot', 'Docker'],                year: '2025', image: '/assets/4.png', links: [{ label: 'GitHub', url: 'https://github.com/asa7ur/dwese-inmobiliaria' }] },
   { id: 5, title: 'Canine Training',    tags: ['React', 'Vite'],                                year: '2024', image: '/assets/5.png', links: [{ label: 'GitHub', url: 'https://github.com/asa7ur/Educadores_Caninos' }] },
-  { id: 6, title: 'Weather Forecast',   tags: ['JavaScript', 'CSS', 'Netlify'],                 year: '2024', image: '/assets/6.png', links: [{ label: 'GitHub', url: 'https://github.com/asa7ur/Weather_App_1' }] },
+  { id: 6, title: 'Weather Forecast',   tags: ['TypeScript', 'Tailwind', 'Open-Meteo API'],     year: '2026', image: '/assets/6.png', links: [{ label: 'GitHub', url: 'https://github.com/asa7ur/Weather_App_1' }] },
 ]
 
 const col0 = projects.filter((_, i) => i % 3 === 0)
