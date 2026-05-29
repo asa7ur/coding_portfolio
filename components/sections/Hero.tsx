@@ -182,14 +182,6 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="fixed left-6 bottom-12 z-10 hidden md:block">
-        <span
-          className="hero-meta-item text-white text-xs tracking-[0.35em] uppercase opacity-50"
-          style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
-        >
-          • Start a Project
-        </span>
-      </div>
 
       <div className="hero-title relative z-10 text-center px-8 select-none">
         <div className="overflow-hidden">

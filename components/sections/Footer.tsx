@@ -71,10 +71,10 @@ export default function Footer() {
   return (
     <footer
       ref={sectionRef}
-      className="relative bg-black text-white overflow-hidden pt-20 md:pt-40 pb-12 md:pb-16 section-px"
+      className="relative bg-black text-white overflow-hidden pt-24 md:pt-40 pb-16 md:pb-16 section-px"
     >
       {/* Availability */}
-      <div className="mb-8 flex items-center gap-3">
+      <div className="mb-10 md:mb-8 flex items-center gap-3">
         <span className="text-white/50 text-xs tracking-[0.35em] uppercase">
           Available for work
         </span>
@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       {/* CTA headline — each line has its own clip container */}
-      <div className="footer-cta-wrap mb-12 md:mb-20">
+      <div className="footer-cta-wrap mb-14 md:mb-20">
         <a
           href="mailto:asa7ur@gmail.com"
           className="block font-serif font-light leading-[0.88] tracking-tight group"
@@ -102,18 +102,18 @@ export default function Footer() {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-white/10 mb-10" />
+      <div className="border-t border-white/10 mb-12" />
 
       {/* Bottom row */}
-      <div className="footer-bottom flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+      <div className="footer-bottom flex flex-col md:flex-row items-start md:items-center justify-between gap-10 md:gap-8">
         <div className="footer-bottom-item">
           <p className="font-serif text-lg font-light text-white/80">Garik Asatryan</p>
-          <p className="text-xs tracking-[0.25em] uppercase text-white/40 mt-1">
+          <p className="text-xs tracking-[0.25em] uppercase text-white/40 mt-2">
             Fullstack Creative — Design &amp; Development
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-6 md:gap-8">
+        <div className="flex flex-wrap gap-8 md:gap-8">
           {links.map(({ label, href }) => (
             <a
               key={label}
@@ -128,7 +128,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <p className="footer-bottom-item text-xs tracking-[0.2em] uppercase text-white/35">
+        <p className="footer-bottom-item text-xs tracking-[0.2em] uppercase text-white/35 pt-2 md:pt-0 border-t border-white/10 w-full md:w-auto md:border-none">
           © {new Date().getFullYear()}
         </p>
       </div>

@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
   { display: '10+', numValue: 10, suffix: '+', label: 'Projects shipped' },
-  { display: '2+',  numValue: 2,  suffix: '+', label: 'Years of craft'   },
+  { display: '2+',  numValue: 3,  suffix: '+', label: 'Years of craft'   },
 ]
 
 const stack = ['React', 'Angular', 'Next.js', 'TypeScript', 'Java', 'Spring Boot', 'Node.js', 'Docker']
